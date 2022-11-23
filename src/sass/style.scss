@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.products{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.container-fluid{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.row{
+			width: 80%;
+			display: flex;
+			justify-content: center;
+		}
+		.head{
+			width: 80%;
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+			.search-bar{
+				width: 100%;
+				input{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.products-title{
+		color: black;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-style: italic;
+		text-decoration: underline;
+		padding: 4px;
+	}
+}
