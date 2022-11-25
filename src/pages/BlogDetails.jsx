@@ -9,6 +9,7 @@ const BlogDetails = props => {
     </div>
   )
 }
+
 const mapStateToProps=(state,props)=>{
     return{
         pvalue:state.blogreducer.find((info)=>{

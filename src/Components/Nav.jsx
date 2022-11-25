@@ -42,7 +42,7 @@ const {totalItems}=useCart()
          <div className="nav-buttons d-flex gap-2"> 
          <Link to='/carts' className=' p-1 btn btn-primary'>Carts ({totalItems})</Link>
         
-          <Link to='/admin' className=' p-1 btn btn-primary'>Dashboard</Link>
+          <Link to='/authentication' className=' p-1 btn btn-primary'> <i className='fa-solid fa-user'></i> Admin</Link>
         
          </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 
-const BlogDetailItems = ({title,text,id,img,price}) => {
+const BlogDetailItems = ({title,id,text,img,price}) => {
+  
   return (
     <div>
      <ul>
